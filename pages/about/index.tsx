@@ -23,14 +23,8 @@ export default function AboutPage() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Get started by
-            <code className={`${styles.code} ${styles.codeMargin}`}>
-              {name}
-            </code>
-            {""}
-            <code className={`${styles.code} ${styles.codeMargin}`}>
-              {position}
-            </code>
+            Get started by editing&nbsp;
+            <code className={styles.code}>pages/index.tsx</code>
           </p>
           <div>
             <a

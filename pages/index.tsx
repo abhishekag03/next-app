@@ -11,7 +11,10 @@ export type User = {
 };
 
 export default function Home() {
-  const [user, toggleUser] = useState<User>({ name: "", position: "" });
+  const [user, toggleUser] = useState<User>({
+    name: "",
+    position: "Freelancer",
+  });
 
   const router = useRouter();
 
@@ -56,11 +59,8 @@ export default function Home() {
               onChange={handleUserName}
             />
             <select className="login-menu" onChange={handleUserPosition}>
-              <option
-                className="login-menu-item"
-                defaultValue="Select position:"
-              >
-                Select position:
+              <option className="login-menu-item" defaultValue="Freelancer">
+                Freelancer
               </option>
               <option className="login-menu-item" value="front-end developer">
                 Front-end developer
