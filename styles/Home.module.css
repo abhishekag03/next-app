@@ -18,6 +18,12 @@
   font-family: var(--font-mono);
 }
 
+.wrapText {
+  margin: 10px 0 2px;
+  font-size: 18px;
+  display: block;
+}
+
 .description a {
   display: flex;
   justify-content: center;
