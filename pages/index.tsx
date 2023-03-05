@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { Jost } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import { ChangeEvent, FormEvent, useState } from "react";
 import { useRouter } from "next/router";
 

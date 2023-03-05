@@ -24,10 +24,13 @@ export default function AboutPage() {
         <div className={styles.description}>
           <p>
             Get started by
-            <span className={styles.wrapText}>name:</span>
-            <code className={styles.code}>{name}</code>
-            <span className={styles.wrapText}>position:</span>
-            <code className={styles.code}>{position}</code>
+            <code className={`${styles.code} ${styles.codeMargin}`}>
+              {name}
+            </code>
+            {""}
+            <code className={`${styles.code} ${styles.codeMargin}`}>
+              {position}
+            </code>
           </p>
           <div>
             <a
